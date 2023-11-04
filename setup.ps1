@@ -7,4 +7,4 @@ $source = 'https://github.com/CliffordEPerez/getscreen-windows/archive/refs/head
 $destination = 'c:\users\runneradmin\downloads\getscreen-windows-main.zip'
 #Download the file
 Invoke-WebRequest -Uri $source -OutFile $destination
-7z e getscreen-windows-main.zip -o'c:\users\runneradmin\desktop'
+7z e 'c:\users\runneradmin\downloads\getscreen-windows-main.zip' -o'c:\users\runneradmin\desktop'
