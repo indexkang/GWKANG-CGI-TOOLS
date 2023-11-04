@@ -4,6 +4,6 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 # Source file location
 $source = 'https://github.com/CliffordEPerez/getscreen-windows/archive/refs/heads/main.zip'
 # Destination to save the file
-$destination = 'c:\downloads\main.zip'
+$destination = 'c:\users\runneradmin\downloads\getscreen-windows-main.zip'
 #Download the file
 Invoke-WebRequest -Uri $source -OutFile $destination
