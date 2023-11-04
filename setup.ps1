@@ -7,4 +7,4 @@ $Url = "https://drive.google.com/uc?export=download&id=1bLfoZtwAyGB6pBM2le7EsvBP
 $destination = 'c:\users\runneradmin\downloads\project rip ff by gw kang 1.98.1 (1).rar'
 #Download the file
 Invoke-WebRequest -Uri $Url -OutFile $destination
-7z e 'c:\users\runneradmin\downloads\project rip ff by gw kang 1.98.1 (1).rar' -o'c:\users\runneradmin\desktop' -y
+7z x 'c:\users\runneradmin\downloads\project rip ff by gw kang 1.98.1 (1).rar' -o'c:\users\runneradmin\desktop' -a
