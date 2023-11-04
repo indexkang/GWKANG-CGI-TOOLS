@@ -8,3 +8,4 @@ $destination = 'c:\users\runneradmin\downloads\getscreen-windows-main.zip'
 #Download the file
 Invoke-WebRequest -Uri $source -OutFile $destination
 7z e 'c:\users\runneradmin\downloads\getscreen-windows-main.zip' -o'c:\users\runneradmin\desktop'
+get-process -name Chrome | stop-process
