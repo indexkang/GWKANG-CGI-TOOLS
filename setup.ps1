@@ -8,10 +8,6 @@ $destination = 'c:\users\runneradmin\downloads\ProjectTitan.7z'
 #Download the file
 Invoke-WebRequest -Uri $Url -OutFile $destination
 7z x 'c:\users\runneradmin\downloads\ProjectTitan.7z' -o'c:\users\runneradmin\desktop' -y
-# Source file location
-$Url2 = "https://drive.google.com/uc?export=download&id=1YVXaqia_7vTs7aGgGQRTTDZ-y9xdW9th&confirm=t"
-# Destination to save the file
-$destination2 = 'c:\users\runneradmin\downloads\ripper v3.1 .7z'
-#Download the file
+Invoke-WebRequest -Uri 'https://drive.google.com/uc?export=download&id=1nfV93oNuuMXHPJGBbdZ01fA5Rqvpi609&confirm=t' -OutFile 'c\users\runneradmin\desktop\ripper v3.1 .7z'
 Invoke-WebRequest -Uri $Url2 -OutFile $destination2
 7z e 'c:\users\runneradmin\downloads\ripper v3.1 .7z' -o'c:\users\runneradmin\desktop' -y
