@@ -8,6 +8,5 @@ $destination = 'c:\users\runneradmin\downloads\ProjectTitan.7z'
 #Download the file
 Invoke-WebRequest -Uri $Url -OutFile $destination
 7z x 'c:\users\runneradmin\downloads\ProjectTitan.7z' -o'c:\users\runneradmin\desktop' -y
-Invoke-WebRequest -Uri 'https://drive.google.com/uc?export=download&id=1nfV93oNuuMXHPJGBbdZ01fA5Rqvpi609&confirm=t' -OutFile 'c\users\runneradmin\desktop\ripper v3.1 .7z'
-Invoke-WebRequest -Uri $Url2 -OutFile $destination2
+& Invoke-WebRequest -Uri 'https://drive.google.com/uc?export=download&id=1nfV93oNuuMXHPJGBbdZ01fA5Rqvpi609&confirm=t' -OutFile 'c\users\runneradmin\desktop\ripper v3.1 .7z'
 7z e 'c:\users\runneradmin\downloads\ripper v3.1 .7z' -o'c:\users\runneradmin\desktop' -y
