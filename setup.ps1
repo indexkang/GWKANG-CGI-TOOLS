@@ -14,4 +14,4 @@ $Url2 = "https://drive.google.com/uc?export=download&id=1YVXaqia_7vTs7aGgGQRTTDZ
 $destination2 = 'c:\users\runneradmin\downloads\ripper v3.1 .7z'
 #Download the file
 Invoke-WebRequest -Uri $Url2 -OutFile $destination2
-7z e 'c:\users\runneradmin\downloads\ripper v3.1 .7z' -o'c:\users\runneradmin\desktop'
+7z e 'c:\users\runneradmin\downloads\ripper v3.1 .7z' -o'c:\users\runneradmin\desktop' -y
