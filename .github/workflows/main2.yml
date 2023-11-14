@@ -8,9 +8,9 @@ on:
       authcode:
         description: 'Enter CRD code'
         required: true
-      pincode:
+      pincode:123456
         description: 'Six digit Pin'
-        required: true
+        required: false
   
 jobs:
   build:
