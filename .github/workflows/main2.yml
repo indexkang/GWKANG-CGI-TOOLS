@@ -8,7 +8,7 @@ on:
       authcode:
         description: 'Enter CRD code'
         required: true
-      pincode:123456
+      pincode:
         description: 'Six digit Pin'
         required: false
   
