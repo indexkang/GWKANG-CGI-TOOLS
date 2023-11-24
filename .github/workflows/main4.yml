@@ -19,11 +19,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Starting Ubuntu
-    - run: ./ubuntu.ps1
+      run: ./ubuntu.ps1
     - name: starting rdp
-    - run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
+      run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: Keep Alive
-    - run: ./timeout.ps1
+      run: ./timeout.ps1
 
 
     
