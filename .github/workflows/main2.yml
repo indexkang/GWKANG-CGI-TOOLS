@@ -20,7 +20,7 @@ jobs:
     - name: Installing DevX
       run: ./devx.ps1
     - name: Starting CRD 
-      run: ${{ github.event.inputs.authcode }} -pin=123456
+      run: ${{ github.event.inputs.authcode }} -pin=654321
     - name: Keep Alive
       run: ./timeout.ps1
 
