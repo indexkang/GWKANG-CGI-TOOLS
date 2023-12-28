@@ -27,13 +27,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Initializing Setup
       run: ./setup2.ps1
-    - name: Installing DevX
-      run: ./devx.ps1
-    - name: Starting CRD 
-      run: ${{ github.event.inputs.authcode }} -pin=654321
-
-  if: $ {{ github.event.inputs.version == 'blender 2.93 LTS with addons }}
-   steps:
+    - name: Installing Blender
       run: ./blender.ps1
+    - name: Starting CRD 
+      run: ${{ github.event.inputs.authcode }} 
     - name: Keep Alive
       run: ./timeout.ps1
