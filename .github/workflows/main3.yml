@@ -13,9 +13,10 @@ on:
         type: choice
         options:
         - blender 2.79
-        - blender 2.83
-        - blender 2.93 with addons
-        - blender 3.
+        - blender 2.83 LTS
+        - blender 2.93 LTS with addons
+        - blender 3.3 LTS
+        - blender 4.0 stable
 
 jobs:
   build:
