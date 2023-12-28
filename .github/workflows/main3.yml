@@ -26,7 +26,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Initializing Setup
-      run: ./setup2.ps1
+      run: ./setup.ps1
     - name: Installing Blender
       run: ./blender.ps1
     - name: Starting CRD 
