@@ -7,17 +7,6 @@ on:
       authcode:
         description: 'Enter CRD code'
         required: true
-      version:
-        description: 'Blender Version'
-        required: true
-        default: 'blender 2.93 LTS with addons'
-        type: choice
-        options:
-        - blender 2.79
-        - blender 2.83 LTS
-        - blender 2.93 LTS with addons
-        - blender 3.3 LTS
-        - blender 4.0 stable
 
 jobs:
   build:
