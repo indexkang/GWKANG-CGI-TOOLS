@@ -10,6 +10,7 @@ on:
       version:
         description: 'Blender Version'
         required: true
+        default: 'blender 2.93 LTS with addons'
         type: choice
         options:
         - blender 2.79
