@@ -31,5 +31,8 @@ jobs:
       run: ./devx.ps1
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=654321
+    if: $ {{ github.event.inputs.version == 'blender 2.93 LTS with addons }}
+   steps:
+      run: ./blender.ps1
     - name: Keep Alive
       run: ./timeout.ps1
