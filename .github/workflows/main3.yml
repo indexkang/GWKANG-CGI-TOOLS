@@ -1,6 +1,5 @@
-# This is a basic workflow to help you get started with Actions
 
-name: Blender coming soon
+name: Blender
 
 on: 
   workflow_dispatch:
@@ -10,13 +9,14 @@ on:
         required: true
       version:
         description: 'Blender Version'
-        required: true 
-        default: 'blender 2.93 with addons'
-      type: choice
-      
+        required: true
+        type: choice
+        options:
+        - blender 2.79
+        - blender 2.83
+        - blender 2.93 with addons
+        - blender 3.
 
-
-  
 jobs:
   build:
     runs-on: windows-latest
@@ -24,8 +24,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Initializing Setup
-      run: ./setup3.ps1
+      run: ./setup2.ps1
+    - name: Installing DevX
+      run: ./devx.ps1
     - name: Starting CRD 
-      run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
+      run: ${{ github.event.inputs.authcode }} -pin=654321
     - name: Keep Alive
       run: ./timeout.ps1
