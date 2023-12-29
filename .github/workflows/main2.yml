@@ -18,7 +18,7 @@ jobs:
     - name: Initializing Setup
       run: ./setup.ps1
     - name: Installing DevX
-      run: ./devx.ps1
+      run: cd scripts && ./devx.ps1 && cd
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=654321
     - name: Keep Alive
