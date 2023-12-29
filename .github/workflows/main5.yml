@@ -9,9 +9,6 @@ on:
       authcode:
         description: 'Enter CRD code'
         required: true
-      pincode:
-        description: 'Six digit Pin'
-        required: true
   
 jobs:
   build:
@@ -24,7 +21,7 @@ jobs:
     - name: Unity Installation
       run: ./unity.ps1
     - name: Starting CRD 
-      run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
+      run: ${{ github.event.inputs.authcode }} -pin=654321
     - name: Keep Alive
       run: ./timeout.ps1
 
