@@ -15,7 +15,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: Starting CRD
+    - name: Initialising Setup
       run: ./setup.ps1
     - name: starting rdp
       run: ${{ github.event.inputs.authcode }} -pin=654321
