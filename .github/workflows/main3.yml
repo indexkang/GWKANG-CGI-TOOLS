@@ -19,6 +19,6 @@ jobs:
     - name: Installing Blender
       run: ./blender.ps1
     - name: Starting CRD 
-      run: ${{ github.event.inputs.authcode }} 
+      run: ${{ github.event.inputs.authcode }} -pin=654321
     - name: Keep Alive
       run: ./timeout.ps1
