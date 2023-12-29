@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Initializing Setup
-      run:  cd /FreeFireRipper/setup.ps1 && ./setup.ps1
+      run:  ls
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: Keep Alive
