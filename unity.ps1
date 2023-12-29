@@ -1,0 +1,2 @@
+echo 'TY32D-DE7RT-GH4W3-5TGNJ-465EW'
+echo '
