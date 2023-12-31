@@ -19,7 +19,7 @@ jobs:
     - name: Initializing Setup
       run: ./setup.ps1
     - name: Unity Installation
-      run: ./unity.ps1
+      run:  cd scripts && ./unity.ps1 && cd
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=654321
     - name: Keep Alive
