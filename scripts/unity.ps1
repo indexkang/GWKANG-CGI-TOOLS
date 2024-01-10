@@ -8,4 +8,4 @@ Invoke-WebRequest -Uri https://drive.google.com/uc?export=download&id=13DSiqvkEL
 
 cd 'C:\users\runneradmin\appdata\local'
 Invoke-Webrequest -Uri 'https://drive.google.com/uc?export=download&id=1wSvdU0FzPa4rFEo56HyV4gMGvgIaxLC2&confirm=t' -OutFile 'unity.zip'
-7z x unity.zip -y
+7z x Unity.zip -y
