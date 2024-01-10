@@ -1,2 +1,6 @@
-echo 'SERIAL KEY  =   TY32D-DE7RT-GH4W3-5TGNJ-465EW'
-echo 'LICENSE KEY =   MJ54G-IUTRF-3E8IMN-E4W4R-T2N4U'
+cd 'C:\users\runneradmin\Dektop'
+$url= 
+'https://drive.google.com/uc?export=download&id=1mq2WTp77RDv7lL2gW6CHSuZhK0yzwVpU&confirm=t'
+$p= 'unity'
+
+Invoke-WebRequest -Uri $url -OutFile $p
