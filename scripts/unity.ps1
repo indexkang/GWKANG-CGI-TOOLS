@@ -3,4 +3,4 @@ $url= 'https://drive.google.com/uc?export=download&id=1mq2WTp77RDv7lL2gW6CHSuZhK
 $p='unity.zip'
 
 Invoke-WebRequest -Uri $url -OutFile $p
-7z x $p
+7z x $p -y
