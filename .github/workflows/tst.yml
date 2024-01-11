@@ -16,4 +16,4 @@ jobs:
     
     steps:
     - name: tst
-      run: { Write-Host "ubuntu - echo hiii" }
+      run: echo $s= "${{ github.event.inputs.name }}
