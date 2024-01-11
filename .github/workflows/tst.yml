@@ -16,4 +16,4 @@ jobs:
     
     steps:
     - name: tst
-      run: ./tst.ps1
+      run: cd && ./tst.ps1
