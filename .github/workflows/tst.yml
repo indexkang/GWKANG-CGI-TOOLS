@@ -1,0 +1,19 @@
+name: Mixed inputs
+
+on:
+  workflow_dispatch:
+    inputs:
+      name: type
+        type: choice
+        description: Who to greet
+        options: 
+        - ubuntu
+        - windows
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: tst
+      run: $p= ${{ github.event.inputs.type }}
