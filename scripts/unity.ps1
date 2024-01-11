@@ -1,1 +1,1 @@
-rm 'C:\Program Files\Unity Hub' -r -recurse
+rm 'C:\Program Files\Unity Hub' -f -recurse
