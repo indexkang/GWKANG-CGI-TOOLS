@@ -16,4 +16,4 @@ jobs:
     
     steps:
     - name: tst
-      run: echo $s= "${{ github.event.inputs.name }}
+      run: echo $s= "${{ github.event.inputs.name }}"
