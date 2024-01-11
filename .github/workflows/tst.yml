@@ -16,4 +16,4 @@ jobs:
 
     steps:
     - name: tst
-      run: $p= ${{ github.event.inputs.type }}
+      run: $p= ${{ github.event.inputs.type }} && echo $p
