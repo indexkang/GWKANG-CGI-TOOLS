@@ -1,4 +1,4 @@
 echo 'hiiiii'
-if (${{ github.event.inputs.name }} -eq 'windows') `{
+if ( $s -eq 'windows') {
    ' $p= hii'
 echo $p
