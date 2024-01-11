@@ -6,4 +6,3 @@ if ( $s -eq 'windows') {
      "$p= bye"
 }
 echo $p
-cd && ./tc.ps1
