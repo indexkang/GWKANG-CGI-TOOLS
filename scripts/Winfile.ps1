@@ -1,6 +1,7 @@
 $s= '${{ github.event.inputs.name }}'
 echo 'hiiiii'
 if ( $s -eq 'windows') {
-   ' $p= hii'
-}
-echo '$p'
+    "$p= hii"
+} else {
+     "$p= bye"
+echo $p
