@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: tst
-      run: cd && ./tst.ps1
+      run: cd scripts && ./Winfile.ps1
