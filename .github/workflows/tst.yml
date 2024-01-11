@@ -13,7 +13,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
+    if: {{ inputs.name = ubuntu }}
     steps:
     - name: tst
       run: $p= '${{ github.event.inputs.name }}' && echo $p
