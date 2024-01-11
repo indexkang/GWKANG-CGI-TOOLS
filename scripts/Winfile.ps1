@@ -4,4 +4,5 @@ if ( $s -eq 'windows') {
     "$p= hii"
 } else {
      "$p= bye"
+}
 echo $p
