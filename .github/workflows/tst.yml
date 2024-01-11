@@ -3,7 +3,7 @@ name: Mixed inputs
 on:
   workflow_dispatch:
     inputs:
-      name: tst
+      name: 
         type: choice
         description: Who to greet
         options: 
