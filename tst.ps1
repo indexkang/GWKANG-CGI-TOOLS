@@ -1,3 +1,3 @@
-if (${{ github.event.inputs.name }} -eq 'ubuntu') {
+if (${{ github.event.inputs.name }} -eq 'windows') {
    ' $p= hii'
 echo $p
