@@ -15,5 +15,6 @@ jobs:
     runs-on: windows-latest
     
     steps:
+      uses: actions/checkoutv2
     - name: tst
       run: cd && ./tst.ps1
