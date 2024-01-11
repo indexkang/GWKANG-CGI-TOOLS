@@ -7,8 +7,7 @@ on:
         type: choice
         description: Who to greet
         options: 
-        - ubuntu:
-             $s= ubuntu
+        - ubuntu
         - windows
 
 jobs:
@@ -17,4 +16,4 @@ jobs:
     
     steps:
     - name: tst
-      run: $p= '${{ github.event.inputs.name }}' && echo $p
+      run: { Write-Host "ubuntu - echo hiii" }
