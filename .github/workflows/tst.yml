@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: tst
-      run: $s= ${{ github.event.inputs.name }} && cd scripts && ./Winfile.ps1
+      run: $s=${{ github.event.inputs.name }} && cd scripts && ./Winfile.ps1
