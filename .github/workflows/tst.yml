@@ -18,3 +18,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: tst
       run: cd scripts && ./Winfile.ps1 && cd
+    - name: runner
+      run: ./tc.ps1
