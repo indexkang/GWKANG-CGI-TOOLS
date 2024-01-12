@@ -7,6 +7,11 @@ on:
       authcode:
         description: 'Enter CRD code'
         required: true
+      version:
+        type: choice
+        options:
+        - 2.79
+        - 3.3.1
 
 jobs:
   build:
