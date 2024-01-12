@@ -1,2 +1,3 @@
-if (${{ github.username }} -eq 'inderxkang') {
-     'echo "hi gw kang"'
+switch(${{ github.event.inputs.name }})
+{
+       0 { Write-Host "ubuntu - echo 'hi' "}
