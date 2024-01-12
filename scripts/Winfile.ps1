@@ -1,2 +1,5 @@
-$blender = '${{ github.event.inputs.name }}'
-Invoke-WebRequest "https://download.blender.org/release/Blender $blender /blender- $blender -windows32.zip" -OutFile '$blender'
+if (“${{ github.event.inputs.environment }}” -eq ‘Stop’) {
+$B = “im 2.93”}
+
+if (“${{ github.event.inputs.environment }}” -eq ‘Start’) {
+$B = “im 2.79}
