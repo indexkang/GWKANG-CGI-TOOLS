@@ -7,9 +7,9 @@ on:
         type: choice
         description: Who to greet
         options: 
-        - ubuntu
-        - windows
-        - win
+        - 2.79
+        - gg
+        - 
 
 jobs:
   build:
