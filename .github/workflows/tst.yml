@@ -20,4 +20,4 @@ jobs:
     - name: tst
       run: $B = ${{ inputs.enviroment }} && if ($B -eq '2.79')
            { cd scripts && ./Winfile.ps1 
-            }
+           }
