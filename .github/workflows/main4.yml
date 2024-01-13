@@ -8,7 +8,7 @@ on:
       authcode:
         description: 'Enter CRD code'
         required: true
-      win version:
+      win_version:
         type: choice
         options:
         - windows-2022
@@ -16,7 +16,7 @@ on:
    
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ${{ inputs.win_version }}
     
     steps:
     - uses: actions/checkout@v2
