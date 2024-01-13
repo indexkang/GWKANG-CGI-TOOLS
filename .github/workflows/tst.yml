@@ -10,6 +10,10 @@ on:
         - 2.79
         - gg
         - heh
+$B = ${{ inputs.enviroment }}
+if ($B -eq '2.79'){
+       echo 'hiii'
+}
 
 jobs:
   build:
@@ -18,6 +22,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: tst
-      run: $B = ${{ inputs.enviroment }} && if ($B -eq '2.79')
-           { cd scripts && ./Winfile.ps1 
-           }
+      run: cd scripts
