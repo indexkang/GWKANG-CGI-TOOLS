@@ -1,4 +1,4 @@
-$G = '${{ github.event.inputs.enviroment }}'
+$G = ${{ github.event.inputs.enviroment }}
 echo $G
 if (“$G” -eq ‘2.93’) {
 $B = “im 2.93”}
