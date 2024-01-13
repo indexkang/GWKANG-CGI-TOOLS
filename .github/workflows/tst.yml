@@ -3,8 +3,8 @@ name: Mixed inputs
 on:
   workflow_dispatch:
     inputs:
-      name: 
-        type: choice
+      enviroment: 
+        type: enviroment
         description: Who to greet
         options: 
         - 2.79
