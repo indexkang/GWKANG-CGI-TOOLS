@@ -18,4 +18,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: tst
-      run: $B = ${{ inputs.enviroment }} && cd scripts && ./Winfile.ps1 && cd
+      run: $B = ${{ inputs.enviroment }} && echo $B
