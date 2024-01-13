@@ -16,6 +16,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Initializing Setup
+      run: ./setup.ps1
+    - name: Installing Free Fire
       run:  cd scripts && ./ff.ps1 && cd
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=654321
