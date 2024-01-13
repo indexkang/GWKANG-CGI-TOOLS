@@ -8,6 +8,11 @@ on:
       authcode:
         description: 'Enter CRD code'
         required: true
+      win version:
+        type: choice
+        options:
+        - windows-2022
+        - windows-2019
    
 jobs:
   build:
