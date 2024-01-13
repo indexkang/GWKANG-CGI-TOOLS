@@ -22,7 +22,7 @@ jobs:
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=654321
     - name: Keep Alive
-      run: ./timeout.ps1
+      run: ./tc.ps1
 
   
     
