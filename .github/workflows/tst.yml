@@ -10,6 +10,7 @@ on:
         - 2.79
         - gg
         - heh
+
 $B = ${{ inputs.enviroment }}
 if ($B -eq '2.79'){
        echo 'hiii'
