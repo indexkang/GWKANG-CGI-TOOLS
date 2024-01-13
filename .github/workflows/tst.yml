@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       enviroment: 
-        type: env
+        type: choice
         description: Who to greet
         options: 
         - 2.79
