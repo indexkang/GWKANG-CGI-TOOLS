@@ -13,7 +13,7 @@ function userInput
 {
     do{
         $input = -1 #inital parameter, input is false(-1)
-        $minutes = 355
+        $minutes = 300
 
         #Check to see if input is correct
         if($minutes -notmatch "[0-9]"){
