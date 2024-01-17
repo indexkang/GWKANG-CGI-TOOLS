@@ -1,4 +1,3 @@
-$Env:COMPUTERNAME
 #Prevents the computer from falling asleep
 #Opens a notepad and writes a "." every second and runs until specified time runs out or notepad has been closed
 
