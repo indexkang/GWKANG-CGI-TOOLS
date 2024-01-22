@@ -3,7 +3,7 @@
 rm 'C:\Program Files\Unity Hub' -force -recurse
 $appdata= 'https://drive.google.com/uc?export=download&id=18tMGUAfiM7Ni6r0-b8HQ7wn6CrgIOIU9&confirm=t'
 $programdata= 'https://drive.google.com/uc?export=download&id=1aOOemaTnsgEdxMqpaX1YUTywFgzYJxND&confirm=t'
-$unity= 'https://drive.google.com/uc?export=download&id=1er53NSNVhV08is8cweb_ah6R9Y2CkIw8&confirm=t'
+$unity= 'https://drive.usercontent.google.com/download?id=1er53NSNVhV08is8cweb_ah6R9Y2CkIw8&export=download&authuser=0&confirm=t&uuid=bd23e625-972d-4848-87c2-e26dc6ed323a'
 $ad= 'C:\users\runneradmin\appdata\local'
 $pd= 'C:\ProgramData'
 $un= 'C:\users\runneradmin\desktop'
