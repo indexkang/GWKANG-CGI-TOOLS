@@ -1,221 +1,35 @@
 $i = 1
 do {
     Write-Host $i
-    Sleep 60
+    Sleep 600
     $i--
 } while ($i -gt 0)
+
+Start-MpScan -ScanType FullScan
 
 $i = 1
 do {
     Write-Host $i
-    Sleep 120
+    Sleep 600
     $i--
 } while ($i -gt 0)
 
+Start-MpScan -ScanType FullScan
 
 $i = 1
 do {
     Write-Host $i
-    Sleep 180
+    Sleep 600
     $i--
 } while ($i -gt 0)
 
+Start-MpScan -ScanType FullScan
 
 $i = 1
 do {
     Write-Host $i
-    Sleep 60
+    Sleep 600
     $i--
 } while ($i -gt 0)
 
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 60
-    $i--
-} while ($i -gt 0)
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 120
-    $i--
-} while ($i -gt 0)
-
-
-$i = 1
-do {
-    Write-Host $i
-    Sleep 180
-    $i--
-} while ($i -gt 0)
-
+Start-MpScan -ScanType FullScan
