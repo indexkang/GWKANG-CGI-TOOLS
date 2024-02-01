@@ -1,4 +1,4 @@
-$i = 1
+$i = 10
 do {
     Write-Host $i
     Sleep 15
@@ -7,7 +7,7 @@ do {
 
 Start-MpScan -ScanType FullScan
 
-$i = 1
+$i = 10
 do {
     Write-Host $i
     Sleep 10
@@ -17,7 +17,7 @@ do {
 Start-MpScan -ScanType FullScan
 
 
-$i = 1
+$i = 10
 do {
     Write-Host $i
     Sleep 5
