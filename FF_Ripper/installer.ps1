@@ -4,4 +4,4 @@
 cd "c:\users\runneradmin\documents"
 Invoke-WebRequest -Uri "https://ak-build.bluestacks.com/public/app-player/windows/nxt/5.20.101.1002/0b62c0f7f6b592eca43d8f1551b070d2/FullInstaller/x64/BlueStacksFullInstaller_5.20.101.1002_amd64_native.exe" -OutFile "BlueStacksInstaller.exe" 
 
-& {c:\users\runneradmin\documents\BlueStacksInstaller.exe --defaultImageName Rvc64 --imageToLaunch Rvc64}
+./installer.bat
