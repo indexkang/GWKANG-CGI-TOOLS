@@ -7,6 +7,7 @@ cd D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_Ripper
 7z x data.7z -y
 7z x ninjaripper.zip -y
 
+rm "c:\users\public\public desktop\*"
 Move-Item -Path D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_Ripper\Engine -Destination C:\ProgramData\Bluestacks_nxt
 Move-Item -Path D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_Ripper\bluestacks.conf -Destination C:\ProgramData
 
