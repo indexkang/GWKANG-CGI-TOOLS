@@ -10,8 +10,8 @@ del /Q C:\ProgramData\BlueStacks_nxt\Engine\Pie64\Promotions
 icacls "C:\ProgramData\BlueStacks_nxt\Engine\Pie64\Promotions" /deny %USERNAME%:(W)
 move "bsuninstaller.exe" "C:\Program Files\BlueStacks_nxt"
 cd D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG_CGI_TOOLS\FF_Ripper
-7z x 'data.7z' -y
-7z x 'ninjaripper.zip' -y
+7z x data.7z -y
+7z x ninjaripper.zip -y
 move "Engine" "C:\ProgramData\BlueStacks_nxt" -y
 move "bluestacks.conf" "C:\ProgramData\Bluestacks_nxt" -y
 move "Free Fire.lnk" "C:\Users\runneradmin\Desktop"
