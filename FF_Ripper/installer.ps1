@@ -2,6 +2,8 @@
 & {$P = $env:TEMP + '\chrome_installer.exe'; Invoke-WebRequest 'https://dl.google.com/chrome/install/latest/chrome_installer.exe' -OutFile $P; Start-Process -FilePath $P -Args '/install' -Verb RunAs -Wait; Remove-Item $P} 
 & "D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS-main\FF_Ripper\installer.bat" -Wait
 
+cd D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_Ripper
+
 7z x data.7z -y
 7z x ninjaripper.zip -y
 
@@ -11,3 +13,4 @@ Move-Item -Path D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_
 Move-Item -Path D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_Ripper\Free Fire.lnk -Destination C:\Users\runneradmin\desktop\Free Fire.lnk
 Move-Item -Path D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_Ripper\NinjaRipper.lnk -Destination C:\Users\runneradmin\desktop\NinjaRipper.lnk
 Move-Item -Path D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS.main\FF_Ripper\Noesis.lnk -Destination C:\Users\runneradmin\desktop\Noesis.lnk
+
