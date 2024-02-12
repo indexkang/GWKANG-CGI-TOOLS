@@ -7,6 +7,6 @@ curl -s "https://drive.usercontent.google.com/download?id=1XypsxRT2hPUaiKf6jVaLP
 curl -s "https://drive.usercontent.google.com/download?id=1maSwjKx7WK8bDHQ0BU4PYGpUQsU9S8dV&export=download&authuser=0&confirm=t&uuid=8f35f112-6e99-4d84-9755-2a7ef1c3e191&at=APZUnTW8RiwTFT3isXjP2CkcHe67%3A1707647543200" -o ninjaripper.zip
 Bluestacks5Installer.exe --defaultImageName Pie64 --imageToLaunch Pie64 -s
 del /Q C:\ProgramData\BlueStacks_nxt\Engine\Pie64\Promotions
-icacls "C:\ProgramData\BlueStacks_nxt\Engine\Pie64\Promotions" /deny %USERNAME%:(W)
+
 move "bsuninstaller.exe" "C:\Program Files\BlueStacks_nxt"
 pause
