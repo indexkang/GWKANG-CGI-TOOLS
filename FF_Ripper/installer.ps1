@@ -9,7 +9,7 @@ cd D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS-main\FF_Ripper
 
 Remove-Item 'C:\ProgramData\BlueStacks_nxt\Engine' -force -recurse
 Remove-Item 'C:\ProgramData\BlueStacks_nxt\bluestacks.conf' -force -recurse
-rm 'C:\Users\public\Desktop\Bluestacks 5.lnk' -force -recurse
+rm 'C:\Users\public\Desktop\bluestacks 5.lnk' -force -recurse
 rm 'C:\Users\public\Desktop\BlueStacks Multi-Instance Manager.lnk' -force -recurse 
 
 Move-Item -Path 'D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS-main\FF_Ripper\Engine' -Destination 'C:\ProgramData\Bluestacks_nxt'
