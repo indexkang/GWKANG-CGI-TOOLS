@@ -5,7 +5,7 @@ choco install directx -y -s
 
 cd D:\a\GWKANG-S_CONSOLE\GWKANG-S_CONSOLE\GWKANG-CGI-TOOLS-main\FF_Ripper
 
-7z x data.7z -y
+7z x data.zip -y
 7z x ninjaripper.zip -y
 
 Remove-Item 'C:\ProgramData\BlueStacks_nxt\Engine' -force -recurse
