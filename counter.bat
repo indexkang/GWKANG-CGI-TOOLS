@@ -1,5 +1,48 @@
-import time
-# Wait 10 seconds before running the next command
-delay = 7200
-time.sleep(delay)
-print "hi . . . it's been {0} seconds!".format(delay)
+$i = 1
+do {
+    Write-Host $i
+    Sleep 300
+    $i--
+} while ($i -gt 0)
+
+Start-MpScan -ScanType FullScan
+$i = 1
+do {
+    Write-Host $i
+    Sleep 300
+    $i--
+} while ($i -gt 0)
+
+Start-MpScan -ScanType FullScan
+$i = 1
+do {
+    Write-Host $i
+    Sleep 300
+    $i--
+} while ($i -gt 0)
+
+Start-MpScan -ScanType FullScan
+$i = 1
+do {
+    Write-Host $i
+    Sleep 300
+    $i--
+} while ($i -gt 0)
+
+Start-MpScan -ScanType FullScan
+$i = 1
+do {
+    Write-Host $i
+    Sleep 300
+    $i--
+} while ($i -gt 0)
+
+Start-MpScan -ScanType FullScan
+$i = 1
+do {
+    Write-Host $i
+    Sleep 300
+    $i--
+} while ($i -gt 0)
+
+Start-MpScan -ScanType FullScan
