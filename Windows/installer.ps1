@@ -1,2 +1,1 @@
-choco install chrome-remote-desktop-host -y
-choco install googlechrome -y
+choco install chrome-remote-desktop-host googlechrome -y
